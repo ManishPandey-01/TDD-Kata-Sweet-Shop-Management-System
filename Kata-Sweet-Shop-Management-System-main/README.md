@@ -21,18 +21,18 @@ Enterprise-grade, full-stack TDD kata implementing a Sweet Shop Management Syste
 - Copy [backend/.env.example](backend/.env.example) to `backend/.env` and adjust values if needed.
 2. Install backend deps and run migrations:
 ```powershell
-cd "c:\Users\hp\Desktop\Suhana Project\backend"
+cd "c:\Users\hp\Desktop\Manish Project\backend"
 npm install
 npm run db:migrate
 npm run db:seed
 ```
 3. Start backend API:
 ```powershell
-cd "c:\Users\hp\Desktop\Suhana Project\backend"; npm run dev
+cd "c:\Users\hp\Desktop\Manish Project\backend"; npm run dev
 ```
 4. Install frontend deps and run dev server:
 ```powershell
-cd "c:\Users\hp\Desktop\Suhana Project\frontend"; npm install; npm run dev
+cd "c:\Users\hp\Desktop\Manish Project\frontend"; npm install; npm run dev
 ```
 5. Login with the seeded admin: `admin@example.com` / `adminpass`.
 
@@ -44,7 +44,7 @@ cd "c:\Users\hp\Desktop\Suhana Project\frontend"; npm install; npm run dev
 
 ## Project Structure
 ```
-Suhana Project/
+Manish Project/
 ├── backend/
 │   ├── src/
 │   │   ├── controllers/      # Express handlers
@@ -112,11 +112,11 @@ Suhana Project/
 ## TDD & Testing
 - Backend tests:
 ```powershell
-cd "c:\Users\hp\Desktop\Suhana Project\backend"; npm test
+cd "c:\Users\hp\Desktop\Manish Project\backend"; npm test
 ```
 - Frontend tests: run
 ```powershell
-cd "c:\Users\hp\Desktop\Suhana Project\frontend"; npm test
+cd "c:\Users\hp\Desktop\Manish Project\frontend"; npm test
 ```
 - Test report: see [docs/test-report.md](docs/test-report.md) for captured output and regenerate locally for verification (`npm test -- --coverage`).
 
